@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block form %}
+<form method="POST">
+
+    <label for="id">Enter ID to Update Values:</label>
+    <input type="number" id="id" name="id"><br>
+
+    <label for="username">Enter New Username:</label>
+    <input type="text" id="username" name="username"><br>
+
+    <label for="email">Enter New Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+  <input type="submit" value="Submit">
+</form><br>
+{% endblock %}
